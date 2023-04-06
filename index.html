@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+    <title>SK APPAREL</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+       <div id="first-section">
+      
+             <p class="sk" >SK APPAREL </p>
+             
+             <p class="topbuttons">CONTACT US</p>
+             <p class="topbuttons">FOOTWEAR</p>
+             <p class="topbuttons">MENSWEAR</p>
+             <p class="topbuttons">ACCESSORIES</p>
+             <p class="topbuttons">HOME</p>
+             <p class="cartimage"><img src="cartlogo.png"  style="width:128px;height:128px;"></p>
+            
+              </p>
+            
+       
+            </div>
+            <div>
+            <hr class="hr1"></div>
+       <div id="second-section">
+        <p class="middletexts">EXPLORE SUMMER COLLECTIONS NOW !</p>
+        <p class="middletexts-off"> 50% OFF ON <br> NEW ARRIVALS</p>
+        <p class="middletexts-right">LIFE ISN'T <br>PERFECT BUT YOUR<br> OUTFIT CAN BE</p>
+       
+        
+          <!-- partial:index.partial.html -->
+         <a class="shopbutton" href="#0">SHOP NOW</a>
+          <!-- partial -->
+          
+      </div>
+      <div id="third-section"></div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="1.jpeg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        
+        <br>
+        
+        <div style="text-align:center">
+          <p class="dot"></p> 
+          <p class="dot"></p> 
+          <p class="dot"></p> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        <div id="index-gallery" >
+          <div class="item">
+        <img src="Purfume.jpg"   style="width:1200px;height:1500px;"><p>PERFUMES</p></div>
+        <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+          <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+          <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+          <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+          <!-- partial -->
+             <!-- partial:index.partial.html --></p></div>
+        <div class="item">
+          <img src="Shoe.jpg"   style="width:1200px;height:1500px;"><p>CLASSIC LEATHER SHOES</p></div>
+          <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+            <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+            <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+            <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+            <!-- partial -->
+               <!-- partial:index.partial.html --></p></div>
+          <div class="item">
+            <img src="watch.jpg"   style="width:1200px;height:1500px;"><p>WATCHES</p></div>
+            <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+              <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+              <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+              <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+              <!-- partial -->
+                 <!-- partial:index.partial.html --></p></div>
+            <div class="item">
+              <img src="sunglass.jpeg"   style="width:1200px;height:1500px;"><p>SUNGLASSES</p></div>
+              <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+                <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+                <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+                <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+                <!-- partial -->
+                   <!-- partial:index.partial.html --></p></div>
+              <div class="item">
+                <img src="purse.jpeg"   style="width:1200px;height:1500px;"><p>LEATHER PURSES</p></div> <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+            <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+            <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+            <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+            
+                <div class="item">
+                  <img src="Belts.jpeg"   style="width:1200px;height:1500px;"><p>LEATHER BELTS</p></div>
+                  <div class="reactbuttons"><p><!-- partial:index.partial.html -->
+                    <button aria-label="heart" data-ico="❤️" style="--hue: 344deg"></button>
+                    <button aria-label="like" data-ico="👍" style="--hue: 247deg"></button>
+                    <button aria-label="star" data-ico="⭐" style="--hue: 48deg"></button>
+                    <!-- partial -->
+                       <!-- partial:index.partial.html --></p></div>
+        </div>
+        <footer><p class="footer-text">Copyright &#169; 2023 SK APPAREL<br>All Rights Reserved.</p></footer>
+                        <!-- partial -->
+
+</body>
+</html>
